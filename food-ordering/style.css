@@ -1,1 +1,62 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 Arial,sans-serif;color:#2b2927}header{background:linear-gradient(120deg,#38251e,#a84c2c);color:white;min-height:330px}nav{display:flex;justify-content:space-between;padding:22px 8%}nav a{color:white;text-decoration:none;margin-left:18px}.brand{font-size:1.2rem;font-weight:bold}.hero{padding:45px 8% 65px}.hero>p:first-child,.tag{color:#e66b35;font-size:.8rem;font-weight:bold;letter-spacing:2px}.hero>p:first-child{color:#ffd0b9}h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1.1}.button{background:white;color:#7a351e;padding:10px 18px;border-radius:5px;text-decoration:none;font-weight:bold}section{padding:60px 8%}.shade{background:#fff7ef}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.grid article{padding:22px;border:1px solid #f0dfd2;border-radius:10px}.grid article:hover{transform:translateY(-4px);box-shadow:0 8px 20px #40201018}.emoji{font-size:2.4rem}.grid strong{color:#e66b35}.note{font-weight:bold}footer{background:#2b2927;color:white;text-align:center;padding:20px}@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:520px){nav{flex-direction:column;gap:12px}nav a{margin:0 12px 0 0}.grid{grid-template-columns:1fr}section{padding:42px 7%}}
+/* Basic CSS box model */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+#home {
+  padding: 20px;
+  background-color: #f8e2d5;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+  background-color: #8a4328;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px;
+  color: #ffffff;
+}
+
+section {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #cccccc;
+}
+
+h2 {
+  color: #8a4328;
+}
+
+table {
+  border: 1px solid #222222;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #222222;
+  text-align: left;
+}
+
+.note {
+  padding: 10px;
+  color: #8a4328;
+  background-color: #f8e2d5;
+}
+
+footer {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #8a4328;
+  text-align: center;
+}

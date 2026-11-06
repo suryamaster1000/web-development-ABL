@@ -3,20 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Food Corner | Student Project</title>
+  <title>Food Corner</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="home"><nav><a class="brand" href="#home">Food Corner</a><div><a href="#menu">Menu</a><a href="#about">About</a></div></nav><div class="hero"><p>FRESH · TASTY · SIMPLE</p><h1>Good Food, Good Mood.</h1><a class="button" href="#menu">View Menu</a></div></header>
+  <header id="home">
+    <h1>Food Corner</h1>
+    <p>A Simple Food Menu Website</p>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
   <main>
-    <section id="menu"><p class="tag">OUR MENU</p><h2>Popular Items</h2><div class="grid">
-      <article><div class="emoji">🍔</div><h3>Veg Burger</h3><p>Vegetable patty with fresh toppings.</p><strong>₹80</strong></article>
-      <article><div class="emoji">🍕</div><h3>Cheese Pizza</h3><p>Pizza topped with cheese and herbs.</p><strong>₹150</strong></article>
-      <article><div class="emoji">🥪</div><h3>Grilled Sandwich</h3><p>Toasted bread with a tasty filling.</p><strong>₹70</strong></article>
-      <article><div class="emoji">🥤</div><h3>Fresh Lime</h3><p>A refreshing lime drink.</p><strong>₹40</strong></article>
-    </div></section>
-    <section class="shade" id="about"><h2>About Food Corner</h2><p>Food Corner is a sample food website created to practise HTML sections, cards, navigation and CSS Grid.</p><p class="note">Educational demo only — this menu does not accept real orders.</p></section>
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <table>
+        <tr><th>Food Item</th><th>Description</th><th>Price</th></tr>
+        <tr><td>Veg Burger</td><td>Vegetable patty and bread</td><td>Rs. 80</td></tr>
+        <tr><td>Cheese Pizza</td><td>Pizza with cheese</td><td>Rs. 150</td></tr>
+        <tr><td>Sandwich</td><td>Bread with vegetable filling</td><td>Rs. 70</td></tr>
+        <tr><td>Fresh Lime</td><td>Lime juice</td><td>Rs. 40</td></tr>
+      </table>
+    </section>
+
+    <section id="about">
+      <h2>About Food Corner</h2>
+      <p>Food Corner is a sample website made to practise HTML tables, sections and hyperlinks.</p>
+      <p class="note">This is an educational demo. It does not accept real orders.</p>
+      <p>Read about food at <a href="https://en.wikipedia.org/wiki/Food">this external website</a>.</p>
+    </section>
+
+    <section>
+      <h2>Other Activities</h2>
+      <p>Visit our <a href="../bakery/index.html">Bakery Website</a>.</p>
+      <p><a href="#home">Go to top</a></p>
+    </section>
   </main>
-  <footer>Created by NEERUKONDA SURYA · 26001332 · CSM7</footer>
+
+  <footer>
+    <p>Created by NEERUKONDA SURYA | 26001332 | CSM7</p>
+  </footer>
 </body>
 </html>
