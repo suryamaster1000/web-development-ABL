@@ -19,6 +19,13 @@ Three beginner-friendly static websites built using HTML5 and CSS3. Each activit
 - CSS colors, typography, spacing and selectors
 - CSS Grid and responsive media queries
 
+## Screenshots
+
+Browser screenshots of all three completed websites are available in the [screenshots folder](screenshots/README.md):
+- [College Information Website](screenshots/college-information.jpg)
+- [Food Ordering Website](screenshots/food-ordering.jpg)
+- [Bakery Website](screenshots/bakery.jpg)
+
 ## Run the Projects
 Open an activity folder and open its `index.html` file in a web browser. No installation is required.
 
