@@ -6,19 +6,28 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #222222;
-  background-color: #ffffff;
+  color: #33251e;
+  background-color: #fff8ef;
 }
 
 #home {
-  padding: 20px;
-  background-color: #dcecff;
+  padding: 55px 20px 35px;
+  color: #ffffff;
   text-align: center;
+  background-color: #68452f;
+}
+
+#home h1 {
+  margin-top: 0;
+}
+
+#home p {
+  color: #fff3df;
 }
 
 nav {
   padding: 10px;
-  background-color: #24527a;
+  background-color: #68452f;
 }
 
 nav a {
@@ -30,32 +39,45 @@ nav a {
 section {
   margin: 15px;
   padding: 15px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ead8c4;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
 h2 {
-  color: #24527a;
+  color: #8a4f2d;
 }
 
 table {
-  border: 1px solid #222222;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d8b99a;
 }
 
 th, td {
   padding: 8px;
-  border: 1px solid #222222;
+  border: 1px solid #d8b99a;
   text-align: left;
 }
 
+th {
+  color: #ffffff;
+  background-color: #8a4f2d;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fff3e3;
+}
+
 .highlight {
-  color: #24527a;
-  background-color: #eeeeee;
   padding: 10px;
+  color: #68452f;
+  background-color: #fff3e3;
 }
 
 footer {
   padding: 10px;
-  background-color: #24527a;
   color: #ffffff;
+  background-color: #68452f;
   text-align: center;
 }
