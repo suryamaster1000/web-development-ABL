@@ -14,10 +14,15 @@
 Three beginner-friendly static websites built using HTML5 and CSS3. Each activity has a separate HTML page and stylesheet.
 
 ## Concepts Practised
-- HTML structure and semantic elements
-- Headings, paragraphs, lists, links and navigation
-- CSS colors, typography, spacing and selectors
-- CSS Grid and responsive media queries
+- HTML document structure and semantic elements (`header`, `nav`, `main`, `section`, `footer`)
+- Headings, paragraphs, lists, text formatting and `div` containers
+- HTML tables with rows and headings
+- Internal section links, external absolute links and relative links between project pages
+- External CSS files, element/class/ID selectors and basic text styling
+- CSS box model: `box-sizing`, padding, border and margin
+- Basic typography and display properties
+
+**Syllabus note:** The HTML and CSS have been kept beginner-friendly and limited to the concepts listed in the Web Development Mid-1 syllabus. Advanced styling such as Grid, Flexbox, gradients, animations and hover effects has been removed.
 
 ## Screenshots
 
